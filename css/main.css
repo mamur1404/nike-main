@@ -1,0 +1,245 @@
+@import 'font.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EBEBEB;
+    font-family: 'roboto';
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* nav start */
+
+.nav {
+    background: #322E41;
+    padding: 14px 0;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-link {
+    /* margin-left: 35px; */
+    padding: 25px 23px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    background: #FFF;
+    color: #D47300;
+}
+
+/* nav end */
+
+/* content start */
+
+
+.content {
+    background: url(../img/banner-1.jpg) no-repeat center center / cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.content-txt {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content-title {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* content end */
+
+/* section start */
+
+section {
+    margin-bottom: 180px;
+}
+
+.section-card {
+    max-width: 540px;
+    width: 100%;
+    background: #fff;
+    margin-right: 30px;
+    border-radius: 6px;
+}
+
+.section-card-img {
+    padding: 15px 15px 20px;
+}
+
+.section-card-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    color: #2C2A2A;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.section-card-txt {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #9B9B9B;
+}
+
+.section-box {
+    max-width: 255px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.section-box-title {
+    margin-top: 22px;
+    color: #2C2A2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 6px
+}
+
+.section-box-img {
+    border: 2px solid #D47300;
+    border-radius: 50%;
+    padding: 20px 8px;
+    display: inline-block;
+}
+
+
+.section-box-txt {
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 15px 0 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.section-box:nth-of-type(1),
+.section-box:nth-of-type(2) {
+    margin-bottom: 50px;
+}
+
+.section-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    /* sigmasa pasga tushirib beradi */
+    justify-content: space-between;
+}
+
+.section-cards {
+    display: flex;
+    margin-top: -30px;
+}
+
+/* section end */
+
+/* footer start */
+
+.footer {
+    padding: 40px 0;
+    background: #322E41;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-input {
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 9px 263px 9px 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.inp {
+    padding: 10px 263px 58px 10px;
+}
+
+.btn {
+    width: 100%;
+    padding: 9px 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    border-radius: 6px;
+    background: #544294;
+    border: none;
+}
+
+.footer-list {
+    margin-top: 36px;
+}
+
+.footer-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: .4s;
+}
+.footer-link:hover {
+    color: #D47300;
+}
+
+.footer-icons {
+    margin-top: 75px;
+}
